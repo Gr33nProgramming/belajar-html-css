@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Caveat:wght@700&family=Lobster&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Pacifico&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,400&family=Rubik+Puddles&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+body{
+    background-color: rgb(233, 233, 233);
+}
+.navbar{
+    width: 100vw;
+    height: 8vh;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 30%;
+}
+.logo img{
+    width: 50px;
+}
+.menu{
+    cursor: default;
+}
+.menu ol ul{
+    display: inline;
+    margin: 10px;
+    color: rgb(88, 88, 88);
+    cursor: pointer;
+}
+.menu ol ul:hover{
+    color: #00BEFF;
+}
