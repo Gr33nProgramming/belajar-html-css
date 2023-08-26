@@ -3,9 +3,12 @@
     margin: 0;
     padding: 0;
     font-family: poppins;
+    /* border: 1px solid black; */
 }
 body{
     background-color: rgb(233, 233, 233);
+    height: 1000px;
+    overflow-x: hidden;
 }
 .navbar{
     width: 100vw;
@@ -14,6 +17,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    z-index: 99;
+    background-color: rgb(233, 233, 233);;
 }
 .logo{
     display: flex;
@@ -34,4 +40,51 @@ body{
 }
 .menu ol ul:hover{
     color: #00BEFF;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 85vh;
+    position: relative;
+    transform: translateY(4.5rem);
+}
+main .punchline{
+    width: 53%;
+    margin-left: 6rem;
+    margin-right: 15rem;
+    font-size: 1.6rem;
+    transform: translateX(1.5rem);
+}
+main .punchline .services{
+    color: #00BEFF;
+}
+main .punchline .subTitle{
+    color: rgb(88, 88, 88);
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+main .image{
+    width: 50%;
+    height: fit-content;
+    margin-left: 7rem;
+}
+main img{
+    width: 100%;
+    margin: 0;
+    transform: translateX(-4rem);
+}
+main .punchline .btn{
+    font-size: 1rem;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: .8rem;
+    border: none;
+    background-color: #00BEFF;
+    margin-top: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(44, 44, 44);
+    box-shadow: 0 5px 10px rgb(159, 159, 159);
 }
